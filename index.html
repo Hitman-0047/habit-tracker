@@ -51,16 +51,16 @@
     }
     
     .floating-element:nth-child(1) {
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       top: 10%;
       left: 5%;
       animation-duration: 20s;
     }
     
     .floating-element:nth-child(2) {
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
       top: 70%;
       right: 5%;
       animation-duration: 25s;
@@ -68,8 +68,8 @@
     }
     
     .floating-element:nth-child(3) {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       bottom: 10%;
       left: 15%;
       animation-duration: 18s;
@@ -77,8 +77,8 @@
     }
     
     .floating-element:nth-child(4) {
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
       top: 20%;
       right: 15%;
       animation-duration: 22s;
@@ -87,8 +87,8 @@
     
     .habit-card {
       background: linear-gradient(to bottom right, #ffffff, #f8fafc);
-      border-radius: 16px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+      border-radius: 14px;
+      box-shadow: 0 8px 20px -5px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
       backdrop-filter: blur(10px);
       border: 1px solid rgba(255, 255, 255, 0.2);
@@ -96,20 +96,20 @@
     }
     
     .habit-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.15);
+      transform: translateY(-3px);
+      box-shadow: 0 15px 25px -8px rgba(0, 0, 0, 0.15);
     }
     
     .status-btn { 
       transition: all 0.3s; 
-      width: 42px;
-      height: 42px;
-      border-radius: 12px;
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1rem;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      font-size: 0.9rem;
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.1);
     }
     
     .status-btn.completed { 
@@ -135,9 +135,9 @@
     }
     
     .date-badge {
-      font-size: 0.7rem;
-      padding: 2px 6px;
-      border-radius: 8px;
+      font-size: 0.65rem;
+      padding: 2px 5px;
+      border-radius: 6px;
       background-color: #f1f5f9;
       color: #64748b;
       margin-top: 4px;
@@ -147,34 +147,35 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 0 4px;
+      margin: 0 3px;
     }
     
     .header-title {
       font-weight: 800;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       color: white;
-      font-size: 2.5rem;
+      font-size: 2rem;
       letter-spacing: 0.5px;
     }
     
     .header-subtitle {
       color: rgba(255, 255, 255, 0.9);
       font-weight: 400;
-      font-size: 1.1rem;
+      font-size: 1rem;
       margin-top: 0.5rem;
     }
     
     .add-btn {
       background: linear-gradient(to right, #8b5cf6, #ec4899);
       color: white;
-      padding: 12px 24px;
-      border-radius: 12px;
+      padding: 10px 20px;
+      border-radius: 10px;
       font-weight: 600;
       box-shadow: 0 4px 10px -1px rgba(139, 92, 246, 0.4);
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
+      font-size: 0.9rem;
     }
     
     .add-btn::before {
@@ -209,9 +210,9 @@
     .week-navigation {
       background: linear-gradient(to right, rgba(99, 102, 241, 0.9), rgba(139, 92, 246, 0.9));
       color: white;
-      border-radius: 12px;
-      padding: 8px 16px;
-      margin: 16px 0;
+      border-radius: 10px;
+      padding: 6px 12px;
+      margin: 12px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -222,8 +223,8 @@
     
     .nav-btn {
       background: rgba(255, 255, 255, 0.2);
-      border-radius: 10px;
-      padding: 6px 12px;
+      border-radius: 8px;
+      padding: 5px 10px;
       cursor: pointer;
       transition: all 0.3s ease;
     }
@@ -235,11 +236,12 @@
     .container-glass {
       background: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(10px);
-      border-radius: 20px;
+      border-radius: 16px;
       border: 1px solid rgba(255, 255, 255, 0.2);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-      padding: 2rem;
+      padding: 1.5rem;
       flex: 1;
+      margin: 0.5rem;
     }
     
     /* Notification settings panel */
@@ -249,12 +251,12 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background: white;
-      border-radius: 16px;
-      padding: 24px;
+      border-radius: 14px;
+      padding: 20px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
       z-index: 100;
       width: 90%;
-      max-width: 400px;
+      max-width: 380px;
       display: none;
     }
     
@@ -276,12 +278,12 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background: white;
-      border-radius: 16px;
-      padding: 24px;
+      border-radius: 14px;
+      padding: 20px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
       z-index: 100;
       width: 90%;
-      max-width: 600px;
+      max-width: 500px;
       max-height: 80vh;
       overflow-y: auto;
       display: none;
@@ -289,18 +291,18 @@
     
     .chart-container {
       position: relative;
-      height: 300px;
+      height: 250px;
       width: 100%;
-      margin: 20px 0;
+      margin: 15px 0;
     }
     
     /* Notification bell */
     .notification-bell {
       position: fixed;
-      bottom: 80px;
-      right: 20px;
-      width: 50px;
-      height: 50px;
+      bottom: 70px;
+      right: 15px;
+      width: 45px;
+      height: 45px;
       border-radius: 50%;
       background: linear-gradient(to right, #8b5cf6, #ec4899);
       color: white;
@@ -361,14 +363,14 @@
     /* Install button */
     .install-btn {
       position: fixed;
-      bottom: 80px;
-      left: 20px;
+      bottom: 70px;
+      left: 15px;
       background: linear-gradient(to right, #10b981, #059669);
       color: white;
       border: none;
       border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      width: 45px;
+      height: 45px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -381,9 +383,9 @@
     /* Footer styles */
     .app-footer {
       text-align: center;
-      padding: 1rem;
+      padding: 0.8rem;
       color: rgba(255, 255, 255, 0.7);
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       margin-top: auto;
     }
 
@@ -398,34 +400,83 @@
       50% { transform: scale(1.1); }
       100% { transform: scale(1); }
     }
-
-    /* Loading indicator */
-    .loading {
+    
+    /* Mobile optimizations */
+    @media (max-width: 640px) {
+      .habit-card {
+        padding: 1rem;
+      }
+      
+      .header-title {
+        font-size: 1.8rem;
+      }
+      
+      .status-btn {
+        width: 34px;
+        height: 34px;
+        font-size: 0.8rem;
+      }
+      
+      .day-container {
+        margin: 0 2px;
+      }
+      
+      .date-badge {
+        font-size: 0.6rem;
+      }
+    }
+    
+    /* Add habit modal */
+    .modal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      z-index: 100;
+      width: 90%;
+      max-width: 400px;
+      display: none;
+    }
+    
+    .modal input, .modal textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .modal-buttons {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 200px;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    
+    .modal-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    
+    .modal-btn.cancel {
+      background: #f1f5f9;
+      color: #64748b;
+    }
+    
+    .modal-btn.save {
+      background: #3b82f6;
       color: white;
-      font-size: 1.2rem;
-    }
-
-    .spinner {
-      border: 4px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50%;
-      border-top: 4px solid white;
-      width: 30px;
-      height: 30px;
-      animation: spin 1s linear infinite;
-      margin-right: 10px;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
     }
   </style>
 </head>
-<body class="min-h-screen p-4 md:p-8">
+<body class="min-h-screen p-3 md:p-6">
   <!-- Animated background elements -->
   <div class="floating-element"></div>
   <div class="floating-element"></div>
@@ -439,6 +490,17 @@
 
   <!-- Overlay for modals -->
   <div class="overlay" id="overlay"></div>
+
+  <!-- Add Habit Modal -->
+  <div class="modal" id="add-habit-modal">
+    <h2 class="text-xl font-bold mb-4">Add New Habit</h2>
+    <input type="text" id="habit-name" placeholder="Habit name" class="modal-input">
+    <textarea id="habit-desc" placeholder="Habit description (optional)" rows="2" class="modal-input"></textarea>
+    <div class="modal-buttons">
+      <button class="modal-btn cancel" onclick="closeModal()">Cancel</button>
+      <button class="modal-btn save" onclick="saveHabit()">Save</button>
+    </div>
+  </div>
 
   <!-- Notification Settings Panel -->
   <div class="settings-panel" id="notification-settings">
@@ -488,7 +550,7 @@
 
   <div class="max-w-4xl mx-auto container-glass">
     <h1 class="text-4xl font-bold mb-2 text-center header-title">🌱 Habit Tracker</h1>
-    <p class="text-center text-white mb-8 text-opacity-90">Track your daily habits and build a better routine</p>
+    <p class="text-center text-white mb-6 text-opacity-90">Track your daily habits and build a better routine</p>
 
     <!-- Week Navigation -->
     <div class="week-navigation">
@@ -502,15 +564,10 @@
     </div>
 
     <!-- Habit List -->
-    <div id="habits-container">
-      <div class="loading">
-        <div class="spinner"></div>
-        <span>Loading habits...</span>
-      </div>
-    </div>
+    <div id="habits-container" class="space-y-4"></div>
 
     <!-- Add Habit -->
-    <div class="mt-8 text-center">
+    <div class="mt-6 text-center">
       <button id="add-habit-btn" class="add-btn">
         <i class="fas fa-plus mr-2"></i> Add New Habit
       </button>
@@ -546,25 +603,19 @@
     }
 
     function init() {
-      try {
-        currentWeekStart = getMonday(new Date());
-        const savedHabits = localStorage.getItem("habits");
-        if (savedHabits) habits = JSON.parse(savedHabits);
-        
-        const savedSettings = localStorage.getItem("notificationSettings");
-        if (savedSettings) notificationSettings = JSON.parse(savedSettings);
-        
-        updateWeekDisplay();
-        renderHabits();
-        setupEventListeners();
-        setupNotificationToggle();
-        scheduleNotifications();
-        registerServiceWorker();
-      } catch (error) {
-        console.error("Error initializing app:", error);
-        document.getElementById("habits-container").innerHTML = 
-          '<div class="text-center text-white p-4">Error loading habits. Please refresh the page.</div>';
-      }
+      currentWeekStart = getMonday(new Date());
+      const savedHabits = localStorage.getItem("habits");
+      if (savedHabits) habits = JSON.parse(savedHabits);
+      
+      const savedSettings = localStorage.getItem("notificationSettings");
+      if (savedSettings) notificationSettings = JSON.parse(savedSettings);
+      
+      updateWeekDisplay();
+      renderHabits();
+      setupEventListeners();
+      setupNotificationToggle();
+      scheduleNotifications();
+      registerServiceWorker();
     }
 
     function updateWeekDisplay() {
@@ -588,6 +639,11 @@
         currentWeekStart.setDate(currentWeekStart.getDate() + 7);
         updateWeekDisplay();
         renderHabits();
+      });
+
+      // Add habit button
+      document.getElementById('add-habit-btn').addEventListener('click', () => {
+        openAddHabitModal();
       });
 
       // PWA installation
@@ -628,18 +684,9 @@
       const container = document.getElementById("habits-container");
       container.innerHTML = "";
 
-      if (habits.length === 0) {
-        container.innerHTML = `
-          <div class="text-center p-8 text-white">
-            <p class="mb-4">No habits yet. Add your first habit to get started!</p>
-          </div>
-        `;
-        return;
-      }
-
       habits.forEach(habit => {
         const card = document.createElement("div");
-        card.className = "habit-card p-6 mb-6";
+        card.className = "habit-card p-4";
         card.onclick = () => showAnalytics(habit);
 
         // Progress
@@ -647,24 +694,24 @@
         const pct = total > 0 ? Math.round((done / total) * 100) : 0;
 
         card.innerHTML = `
-          <div class="flex justify-between items-center mb-4">
+          <div class="flex justify-between items-center mb-3">
             <div>
-              <h2 class="font-semibold text-xl text-gray-800">${habit.name}</h2>
-              <p class="text-gray-500">${habit.desc}</p>
+              <h2 class="font-semibold text-lg text-gray-800">${habit.name}</h2>
+              <p class="text-gray-500 text-sm">${habit.desc}</p>
             </div>
             <button onclick="event.stopPropagation(); deleteHabit(${habit.id})" class="delete-btn text-gray-400 hover:text-red-500">
               <i class="fas fa-trash"></i>
             </button>
           </div>
-          <div class="flex justify-between mb-4" id="days-${habit.id}"></div>
+          <div class="flex justify-between mb-3" id="days-${habit.id}"></div>
           <div class="mb-1">
-            <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
-              <div class="progress-fill h-3" style="width:${pct}%"></div>
+            <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div class="progress-fill h-2" style="width:${pct}%"></div>
             </div>
           </div>
           <div class="flex justify-between items-center">
-            <p class="text-sm text-gray-500">Weekly progress</p>
-            <p class="text-sm font-semibold" style="color: #4f46e5;">${pct}% complete</p>
+            <p class="text-xs text-gray-500">Weekly progress</p>
+            <p class="text-xs font-semibold" style="color: #4f46e5;">${pct}% complete</p>
           </div>
         `;
 
@@ -697,7 +744,6 @@
         const dayDisplay = d.toLocaleDateString('en-US', { weekday: 'short' });
 
         let status = habit.completion[dateStr] || "incomplete";
-        // FIXED: Corrected the ternary operator syntax
         let icon = status === "completed" ? "check" : status === "rest" ? "bed" : "times";
         let color = status;
 
@@ -758,6 +804,32 @@
 
     function save() {
       localStorage.setItem("habits", JSON.stringify(habits));
+    }
+
+    // Add habit modal functions
+    function openAddHabitModal() {
+      document.getElementById('overlay').style.display = 'block';
+      document.getElementById('add-habit-modal').style.display = 'block';
+      document.getElementById('habit-name').value = '';
+      document.getElementById('habit-desc').value = '';
+    }
+
+    function closeModal() {
+      document.getElementById('overlay').style.display = 'none';
+      document.getElementById('add-habit-modal').style.display = 'none';
+    }
+
+    function saveHabit() {
+      const name = document.getElementById('habit-name').value.trim();
+      if (!name) {
+        alert('Please enter a habit name');
+        return;
+      }
+      
+      const desc = document.getElementById('habit-desc').value.trim();
+      habits.push({ id: Date.now(), name, desc: desc || "", completion: {} });
+      renderHabits();
+      closeModal();
     }
 
     // Notification functions
@@ -1043,8 +1115,14 @@
       });
     }
 
-    // Initialize the app
-    document.addEventListener('DOMContentLoaded', init);
+    // Close modals when clicking outside
+    document.getElementById('overlay').addEventListener('click', function() {
+      closeSettings();
+      closeAnalytics();
+      closeModal();
+    });
+
+    window.onload = init;
   </script>
 </body>
 </html>
